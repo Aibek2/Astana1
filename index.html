@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almaty.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="moon"></div>
+    <div class="flowers">
+        <div class="flower flower-1"></div>
+        <div class="flower flower-2"></div>
+        <div class="flower flower-3"></div>
+    </div>
+    <div class="container">
+        <h1>8 Наурыз - Халықаралық әйелдер күндерімен</h1>
+        <p class="subtitle">Атыңды қазақша еңгіз❤️</p>
+        <form id="authForm">
+            <div class="input-group">
+                <input type="text" id="name" name="name" placeholder=" " required>
+                <label for="name">Ваше имя</label>
+            </div>
+            <button type="submit">Құтықтауды қабылдау</button>
+        </form>
+        <div id="greeting" class="hidden">
+            <div class="photo-container">
+                <img id="userPhoto" src="" alt="Фото" class="fade-in">
+            </div>
+            <p id="greetingText"></p>
+        </div>
+    </div>
+
+    <!-- Уведомление -->
+    <div id="notification" class="hidden">
+        <p>Сені жексенбі күні Қанатың үйінде күтеміз пупсик🥰 </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
